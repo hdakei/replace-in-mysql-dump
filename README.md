@@ -7,5 +7,6 @@ all string that you want to change , #replace string and sqlfile name defined as
 # How it work:
 
 enter following command:
-\npython edit.py
+
+'''python edit.py'''
 
