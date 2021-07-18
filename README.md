@@ -8,5 +8,5 @@ all string that you want to change , #replace string and sqlfile name defined as
 
 enter following command:
 
-'''python edit.py'''
+'python edit.py'
 
