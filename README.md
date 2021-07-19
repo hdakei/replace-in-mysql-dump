@@ -9,5 +9,7 @@ Sctipt has 2 option to change one is ***replace domain name with and without www
 
 enter following command:
 
-'python edit.py'
+```
+python edit.py
 
+```
