@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# mysql file
+*.sql
 # C extensions
 *.so
 
