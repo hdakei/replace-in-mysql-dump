@@ -77,22 +77,22 @@ def changehttpswithoutwww():
 		#replace all occurrences of the required string
 		occurrences = data.count(mcchttpswww)
 		print(f"Number of occurrences of the word {mcchttpswww}: ", occurrences)
-		data = data.replace(mcchttpswww,rcchttpwww) 
+		data = data.replace(mcchttpswww,rcchttpswww) 
 		
 		#replace all occurrences of the required string
 		occurrences = data.count(mcchttps)
 		print(f"Number of occurrences of the word {mcchttps}: ", occurrences)
-		data = data.replace(mcchttps,rcchttpwww) 
+		data = data.replace(mcchttps,rcchttpswww) 
 		
 		#replace all occurrences of the required string
 		occurrences = data.count(mcchttpwww)
 		print(f"Number of occurrences of the word {mcchttpswww}: ", occurrences)
-		data = data.replace(mcchttpwww,rcchttpwww) 		
+		data = data.replace(mcchttpwww,rcchttpswww) 		
 		
 		#replace all occurrences of the required string
 		occurrences = data.count(mcchttp)
 		print(f"Number of occurrences of the word {mcchttp}: ", occurrences)
-		data = data.replace(mcchttp,rcchttpwww) 	
+		data = data.replace(mcchttp,rcchttpswww) 	
 		
 		#replace all occurrences of the required string
 		occurrences = data.count(mwholetext)
